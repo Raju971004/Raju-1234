@@ -40,6 +40,7 @@ public class FBStep {
         Thread.sleep(5000);
         WebElement login = driver.findElement(By.name("login"));
         login.click();
+        System.out.println("abc");
     }
 
 
